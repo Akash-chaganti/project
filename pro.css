@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+h1{ color: rgb(0, 3, 6);
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(161, 24, 24, 0.553); */
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+.parallex{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.parallex-1{
+    background-image:url(https://img.freepik.com/free-vector/large-school-building-scene_1308-32058.jpg) ;
+    
+}
+.parallex-2{
+    background-image:url(https://t4.ftcdn.net/jpg/04/31/47/35/360_F_431473578_sfwRzAfW9CBQ6R2Ak1QZZVT5eKkIiJbR.jpg) ;
+}
+.parallex-3{
+    background-image: url(https://th.bing.com/th/id/R.efd35a6d841953060a0c4b10f763f08c?rik=CJ9NMgFci1tVmg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2f8%2f4%2f888661-beautiful-library-background-images-1920x1080-iphone.jpg&ehk=4sDpXGMv3dZdR6sK7WCIqhrxrVTpmPIyg8Nr3dm9nl0%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.content{
+    padding: 10px;
+}
+h2,p{
+    text-align: center;
+    margin-bottom: 20px;
+}
